@@ -1,0 +1,186 @@
+/* body {
+    overflow-x: scroll
+} */
+
+.mainbox {
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    font-family: sans-serif;
+    height: 1000px;
+}
+
+#firstbox {
+    background-color: #1F2937;
+}
+
+.row {
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 15px;
+    display: flex;
+}
+
+.Header-Logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    flex: 1 1 auto;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.Header-Links {
+    font-size: 18px;
+    color: #E5E7EB;
+    flex: 0.5 1 auto;
+    display: flex;
+}
+
+.Header-Links div {
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 5px;
+}
+
+.coloumn1 {
+    flex: 1 1 50%;
+    padding-top: 100px;
+    padding-bottom: 85px;
+}
+
+#website {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+#subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-right: 30px;
+}
+
+#signup {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    width: 150px;
+}
+
+#signup p {
+    text-align: center;
+    padding: 10px;
+}
+
+.imgplace {
+    background-color: #66ff99;
+    height: 100%;
+    text-align: center;
+}
+
+.imgplace div {
+    padding-top: 120px;
+}
+
+.random {
+    flex: 1 1 auto;
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.imgbox {
+    width: 150px;
+}
+
+#secondbox {
+    display: flex;
+    padding-top: 45px;
+    justify-content: center;
+    gap: 45px;
+    padding-bottom: 70px;
+}
+
+.bluebox {
+    border: 4px solid #3882F6;
+    width: 150px;
+    height: 150px;
+}
+
+#imgtext {
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.thirdbox {
+    background-color: #E5E7EB;
+    padding-bottom: 75px;
+}
+
+.thirdbox p {
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding-top: 80px;
+}
+
+.thirdbox div {
+    font-size: 18px;
+    color: #1F2937;
+    text-align: right;
+    padding-right: 300px;
+    font-weight: bold;
+}
+
+.bluebox2 {
+    background-color: #3882F6;
+    width: 950px;
+    height: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourthbox {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whitetext {
+    font-size: 18px;
+}
+
+.signup2 {
+    font-size: 18px;
+    font-weight: bold;
+    height: 35px;
+    width: 120px;
+    border: 2px solid #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.insideblue {
+    color: #E5E7EB;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.fifthbox {
+    background-color: #1F2937;
+    height: 100px;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
