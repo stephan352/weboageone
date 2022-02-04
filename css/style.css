@@ -78,6 +78,7 @@
     text-align: center;
 }
 
+/*Ini daripada pake padding mending luarnya (imgplace) pake display flex, align-items center, justify-content center*/
 .imgplace div {
     padding-top: 120px;
 }

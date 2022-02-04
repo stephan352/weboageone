@@ -5,10 +5,13 @@
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
+<!--Generally class namingnya bisa diimprove, bisa liat http://getbem.com/ buat reference BEM-style css naming-->
+<!--(Not that you will need this info long enough, kalo udah masuk React udah ga perlu mikirin nama class CSS lagi haha)-->
 <body>
     <div class="mainbox">
         <div class="box" id="firstbox">
             <div class="row">
+<!--                Inconsistent class naming, kadang Kayak-Gini kadang kayakgini-->
                 <div class="Header-Logo">Header Logo</div>
                 <div class="Header-Links">
                     <div class="Header-Link-1">Header link one</div>
@@ -17,6 +20,7 @@
                 </div>
             </div>
             <div class="row" id="1row2">
+<!--                Typo, column1-->
                 <div class="coloumn1">
                     <div id="website">This website is awesome</div>
                     <div id="subtext">
@@ -26,6 +30,7 @@
                         contrast
                         </p>
                     </div>
+<!--                    Ini mungkin bisa pake button atau kalo engga seengganya dibikin button-like pake :hover, cursor: pointer -->
                     <div id="signup">
                         <p>Sign up</p>
                     </div>
@@ -40,6 +45,7 @@
             <div id="secondbox">
                 <div class="imgbox">
                     <div class="bluebox"></div>
+<!--                    Generally id cuma buat 1 benda, kalo gini mungkin perlu class instead of id-->
                     <div id="imgtext">this is some subtext under an illustration or image</div>
                 </div>
                 <div class="imgbox">
@@ -72,6 +78,7 @@
                         <div class="Header-Logo">Call to action! It's time!</div>
                         <div class="whitetext">Sign up for our product by clicking that button right over there!</div>
                     </div>
+<!--                    Ini mungkin bisa pake button atau kalo engga seengganya dibikin button-like pake :hover, cursor: pointer -->
                     <div class="signup2">Sign up</div>
                 </div>
             </div>
